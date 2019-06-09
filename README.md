@@ -26,7 +26,11 @@ start the server.
 git clone https://github.com/afnarqui/netcore-webapi.git
 cd netcore-webapi
 docker-compose up --build
-http://localhost:8081/
+```
+
+## create image sql server in docker
+```docker
+docker-compose up --build
 ```
 
 [afn]: <https://github.com/afnarqui/netcore-webapi>
