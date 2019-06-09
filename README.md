@@ -33,4 +33,14 @@ docker-compose up --build
 docker-compose up --build
 ```
 
+## create data base travels
+```sql
+exec create database.sql
+```
+
+## run aplication
+```sh
+http://localhost:8081/
+```
+
 [afn]: <https://github.com/afnarqui/netcore-webapi>
