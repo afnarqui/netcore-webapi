@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+ sqldocker:
+    image: microsoft/mssql-server-linux:2017-latest
+    volumes:
+      - mssql-server-linux-data:/var/opt/mssql/data
+    environment:
+      - SA_PASSWORD=quintero1.
+      - ACCEPT_EULA=Y
+    ports:
+      - "5434:1433"
+volumes:
+  mssql-server-linux-data: 
