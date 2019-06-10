@@ -1,0 +1,14 @@
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Transversal.Mapper\bin\Debug\netstandard2.0\Afnarqui.Prueba.Transversal.Mapper.deps.json
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Transversal.Mapper\bin\Debug\netstandard2.0\Afnarqui.Prueba.Transversal.Mapper.dll
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Transversal.Mapper\obj\Debug\netstandard2.0\Afnarqui.Prueba.Transversal.Mapper.csprojAssemblyReference.cache
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Transversal.Mapper\obj\Debug\netstandard2.0\Afnarqui.Prueba.Transversal.Mapper.csproj.CoreCompileInputs.cache
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Transversal.Mapper\obj\Debug\netstandard2.0\Afnarqui.Prueba.Transversal.Mapper.AssemblyInfoInputs.cache
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Transversal.Mapper\obj\Debug\netstandard2.0\Afnarqui.Prueba.Transversal.Mapper.AssemblyInfo.cs
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Transversal.Mapper\bin\Debug\netstandard2.0\Afnarqui.Prueba.Transversal.Mapper.pdb
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Transversal.Mapper\bin\Debug\netstandard2.0\Afnarqui.Prueba.Aplication.DTO.dll
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Transversal.Mapper\bin\Debug\netstandard2.0\Afnarqui.Prueba.Domain.Entity.dll
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Transversal.Mapper\bin\Debug\netstandard2.0\Afnarqui.Prueba.Aplication.DTO.pdb
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Transversal.Mapper\bin\Debug\netstandard2.0\Afnarqui.Prueba.Domain.Entity.pdb
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Transversal.Mapper\obj\Debug\netstandard2.0\Afnarqui.Prueba.Transversal.Mapper.csproj.CopyComplete
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Transversal.Mapper\obj\Debug\netstandard2.0\Afnarqui.Prueba.Transversal.Mapper.dll
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Transversal.Mapper\obj\Debug\netstandard2.0\Afnarqui.Prueba.Transversal.Mapper.pdb
