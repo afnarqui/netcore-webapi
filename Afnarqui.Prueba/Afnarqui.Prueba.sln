@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Afnarqui.Prueba.Transversal
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Afnarqui.Prueba.Aplication.Interface", "Afnarqui.Prueba.Aplication.Interface\Afnarqui.Prueba.Aplication.Interface.csproj", "{3CF044E9-FE0F-4CC4-AC94-0E714F46B982}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Afnarqui.Prueba.Aplication.Main", "Afnarqui.Prueba.Aplication.Main\Afnarqui.Prueba.Aplication.Main.csproj", "{7764B5DE-1E2C-4538-9773-7CD8FC8217DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +79,10 @@ Global
 		{3CF044E9-FE0F-4CC4-AC94-0E714F46B982}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CF044E9-FE0F-4CC4-AC94-0E714F46B982}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CF044E9-FE0F-4CC4-AC94-0E714F46B982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7764B5DE-1E2C-4538-9773-7CD8FC8217DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7764B5DE-1E2C-4538-9773-7CD8FC8217DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7764B5DE-1E2C-4538-9773-7CD8FC8217DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7764B5DE-1E2C-4538-9773-7CD8FC8217DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -92,6 +98,7 @@ Global
 		{1E40D014-930C-4C52-9873-B67EF824FE1E} = {0439F40A-31E7-463D-A356-110E3D4C458D}
 		{5EB94888-4B75-463B-9107-707899670D8D} = {15142E31-BD6D-4710-BDC7-B5A25B123C23}
 		{3CF044E9-FE0F-4CC4-AC94-0E714F46B982} = {0439F40A-31E7-463D-A356-110E3D4C458D}
+		{7764B5DE-1E2C-4538-9773-7CD8FC8217DF} = {0439F40A-31E7-463D-A356-110E3D4C458D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D22D24DB-EC6F-4399-ADA6-9440CB6C5070}
