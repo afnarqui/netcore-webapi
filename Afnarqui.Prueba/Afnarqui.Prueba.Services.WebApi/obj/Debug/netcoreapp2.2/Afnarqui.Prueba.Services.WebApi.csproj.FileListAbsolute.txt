@@ -19,3 +19,5 @@ D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Services.WebApi\bin\De
 D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Services.WebApi\bin\Debug\netcoreapp2.2\Afnarqui.Prueba.Aplication.Interface.pdb
 D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Services.WebApi\bin\Debug\netcoreapp2.2\Afnarqui.Prueba.Transversal.Common.pdb
 D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Services.WebApi\obj\Debug\netcoreapp2.2\Afnarqui.Prueba.Services.WebApi.csproj.CopyComplete
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Services.WebApi\bin\Debug\netcoreapp2.2\Afnarqui.Prueba.Aplication.Logic.dll
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Services.WebApi\bin\Debug\netcoreapp2.2\Afnarqui.Prueba.Aplication.Logic.pdb

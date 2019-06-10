@@ -2717,6 +2717,13 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.7.9": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props": {},
+          "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.targets": {}
+        }
+      },
       "Microsoft.VisualStudio.Web.CodeGeneration/2.2.3": {
         "type": "package",
         "dependencies": {
@@ -4745,6 +4752,16 @@
           "bin/placeholder/Afnarqui.Prueba.Aplication.Interface.dll": {}
         }
       },
+      "Afnarqui.Prueba.Aplication.Logic/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Afnarqui.Prueba.Aplication.Logic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Afnarqui.Prueba.Aplication.Logic.dll": {}
+        }
+      },
       "Afnarqui.Prueba.Transversal.Common/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -6057,7 +6074,7 @@
       ]
     },
     "Microsoft.CodeAnalysis.Analyzers/1.1.0": {
-      "sha512": "HS3iRWZKcUw/8eZ/08GXKY2Bn7xNzQPzf8gRPHGSowX7u7XXu9i9YEaBeBNKUXWfI7qjvT2zXtLUvbN0hds8vg==",
+      "sha512": "ktMs0dTJJdaLG85P8OyAao0elJ3qU7iu9+wZfiNqGacNBoGL6kDSYMADZ8kLvfQy4wJvCge970/bBIeQ9MtdNQ==",
       "type": "package",
       "path": "microsoft.codeanalysis.analyzers/1.1.0",
       "hasTools": true,
@@ -7517,6 +7534,69 @@
         "version.txt"
       ]
     },
+    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.7.9": {
+      "sha512": "qctOe/wBGvigq5c0GSjzR8TUgdpQv7YhHugiUyvBHTXhOpKKbhVhrsXqy4fEHZ4kVU5498ywsigEbrQ22ps4ew==",
+      "type": "package",
+      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.7.9",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "EULA.md",
+        "build/Container.props",
+        "build/Container.targets",
+        "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props",
+        "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.targets",
+        "build/ToolsTarget.props",
+        "build/ToolsTarget.targets",
+        "microsoft.visualstudio.azure.containers.tools.targets.1.7.9.nupkg.sha512",
+        "microsoft.visualstudio.azure.containers.tools.targets.nuspec",
+        "tools/Microsoft.VisualStudio.Containers.Tools.Common.dll",
+        "tools/Microsoft.VisualStudio.Containers.Tools.Shared.dll",
+        "tools/Microsoft.VisualStudio.Containers.Tools.Tasks.dll",
+        "tools/Newtonsoft.Json.dll",
+        "tools/cs/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/cs/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/cs/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/de/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/de/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/de/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/es/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/es/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/es/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/fr/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/fr/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/fr/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/it/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/it/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/it/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/ja/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/ja/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/ja/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/ko/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/ko/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/ko/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/pl/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/pl/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/pl/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/pt-BR/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/pt-BR/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/pt-BR/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/ru/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/ru/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/ru/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/tr/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/tr/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/tr/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/utils/KillProcess.exe",
+        "tools/zh-Hans/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/zh-Hans/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/zh-Hans/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/zh-Hant/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/zh-Hant/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/zh-Hant/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll"
+      ]
+    },
     "Microsoft.VisualStudio.Web.CodeGeneration/2.2.3": {
       "sha512": "wc71c9HWTeXy9/w9O4Yr2LKmdJjVyIoJ/XQX8/6uma4EAVU25RLtUWlvhA0gpgFw9Kf1TkCv70x+CbKnRw/d8Q==",
       "type": "package",
@@ -8198,7 +8278,7 @@
       ]
     },
     "runtime.native.System/4.3.0": {
-      "sha512": "c/qWt2LieNZIj1jGnVNsE2Kl23Ya2aSTBuXMD6V7k9KWr6l16Tqdwq+hJScEpWER9753NWC8h96PaVNY5Ld7Jw==",
+      "sha512": "ciThRTmVOsfoo/oRIThcN+fQAAyQQQEvSxPgmPhdtgJJzux97orqRGMy8YGViH94P5U3E480MoOZF2m0584hSw==",
       "type": "package",
       "path": "runtime.native.system/4.3.0",
       "files": [
@@ -8240,12 +8320,11 @@
       ]
     },
     "runtime.native.System.Net.Http/4.3.0": {
-      "sha512": "ZVuZJqnnegJhd2k/PtAbbIcZ3aZeITq3sj06oKfMBSfphW3HDmk/t4ObvbOk/JA/swGR0LNqMksAh/f7gpTROg==",
+      "sha512": "aTWvqM7MoPF6GRMBckfix99UXGEYFbuecgf5Zik8nf0y+LOBZ9dJ00iYUh1LSPG4iywYrjryoSP6Vfu6MCCziw==",
       "type": "package",
       "path": "runtime.native.system.net.http/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -8254,7 +8333,7 @@
       ]
     },
     "runtime.native.System.Security.Cryptography.Apple/4.3.0": {
-      "sha512": "DloMk88juo0OuOWr56QG7MNchmafTLYWvABy36izkrLI5VledI0rq28KGs1i9wbpeT9NPQrx/wTf8U2vazqQ3Q==",
+      "sha512": "znS4DWnfElfMXji5sPDl9J/tzzDWaECGBf7Zqac+FobKqZUz0PtyedH9QBnEekDhth87fJRnNZm5dxU6KhfmfQ==",
       "type": "package",
       "path": "runtime.native.system.security.cryptography.apple/4.3.0",
       "files": [
@@ -8309,7 +8388,7 @@
       ]
     },
     "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple/4.3.0": {
-      "sha512": "Kh9W4agE0r/hK8AX1LvyQI2NrKHBL8pO0gRoDTdDb0LL6Ta1Z2OtFx3lOaAE0ZpCUc/dt9Wzs3rA7a3IsKdOVA==",
+      "sha512": "QtaGJfgUG6rzdJ3Zbd+aWvBPhp+i4Dao7tqcDaSUI/Mg8f2Z3Ht3/G7LphxkVCuBO2kcxxPGV0BdcGOlI/lFTA==",
       "type": "package",
       "path": "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple/4.3.0",
       "files": [
@@ -8680,7 +8759,7 @@
       ]
     },
     "System.Collections.NonGeneric/4.3.0": {
-      "sha512": "prtjIEMhGUnQq6RnPEYLpFt8AtLbp9yq2zxOSrY7KJJZrw25Fi97IzBqY7iqssbM61Ek5b8f3MG/sG1N2sN5KA==",
+      "sha512": "tWvqwkaysx/qml4ixxnYa8l6V59PLfk1Na+gJkmzo2zNzxhA6fBlfGh/q1QmIDx5ctaPvhts3o6/K4DK6SaQNw==",
       "type": "package",
       "path": "system.collections.nongeneric/4.3.0",
       "files": [
@@ -8718,7 +8797,7 @@
       ]
     },
     "System.Collections.Specialized/4.3.0": {
-      "sha512": "NoPBj0ykejqAWW4p4gGtrrL+3c84ZLSvGnHgq422ew1Rj4WKj1FA8/BCybqC111EtgcqUl6ZJNFYYS22HLgbjA==",
+      "sha512": "JojqhNcH1JTrxDGPsr4IdoVp4ldSB7hbOcmSTOrfbn9U8bAsdvi4cIQ/HQv+sphHR56hGc4dCHrAojucAydcrg==",
       "type": "package",
       "path": "system.collections.specialized/4.3.0",
       "files": [
@@ -9235,7 +9314,7 @@
       ]
     },
     "System.Diagnostics.StackTrace/4.3.0": {
-      "sha512": "BiHg0vgtd35/DM9jvtaC1eKRpWZxr0gcQd643ABG7GnvSlf5pOkY2uyd42mMOJoOmKvnpNj0F4tuoS1pacTwYw==",
+      "sha512": "xW6BGuC7lgQK9Y4Qyga9yQZkUHo/hcOgGefoW/WnLvNCy0NhFjplddhdOLOKrOxw2fs+B+sTlFT2n6l5wqfDDA==",
       "type": "package",
       "path": "system.diagnostics.stacktrace/4.3.0",
       "files": [
@@ -9598,7 +9677,7 @@
       ]
     },
     "System.Globalization.Extensions/4.3.0": {
-      "sha512": "FhKmdR6MPG+pxow6wGtNAWdZh7noIOpdD5TwQ3CprzgIE1bBBoim0vbR1+AWsWjQmU7zXHgQo4TWSP6lCeiWcQ==",
+      "sha512": "BSqo/qxlGYAbqc0JigeevBBU1TFWI8XY1N6oEegSs9pbhDnufJkMHE5a6rlAitkqdOYYrzT3MBtGBYHlOtHJ8A==",
       "type": "package",
       "path": "system.globalization.extensions/4.3.0",
       "files": [
@@ -10092,7 +10171,7 @@
       ]
     },
     "System.Linq.Parallel/4.3.0": {
-      "sha512": "td7x21K8LalpjTWCzW/nQboQIFbq9i0r+PCyBBCdLWWnm4NBcdN18vpz/G9hCpUaCIfRL+ZxJNVTywlNlB1aLQ==",
+      "sha512": "JR9JO5J/FozVmsuwBWr+A7pg1srsTzri4n5S0pNA6i/LNtZl+iwo9dTOL7YDZE8r4gGPSC+pRxQfkYhlB2s/Ug==",
       "type": "package",
       "path": "system.linq.parallel/4.3.0",
       "files": [
@@ -10623,7 +10702,7 @@
       ]
     },
     "System.Reflection.Emit/4.3.0": {
-      "sha512": "228FG0jLcIwTVJyz8CLFKueVqQK36ANazUManGaJHkO0icjiIypKW7YLWLIWahyIkdh5M7mV2dJepllLyA1SKg==",
+      "sha512": "0vP5YczRZi174h/fINFrGGHBQ2IDSfZCz9VMqNqqgVz49cpL9CU6dXlcJoiLPafLI8ZcreRmXWLE+G19agHNaQ==",
       "type": "package",
       "path": "system.reflection.emit/4.3.0",
       "files": [
@@ -11601,7 +11680,7 @@
       ]
     },
     "System.Security.Claims/4.3.0": {
-      "sha512": "P/+BR/2lnc4PNDHt/TPBAWHVMLMRHsyYZbU1NphW4HIWzCggz8mJbTQQ3MKljFE7LS3WagmVFuBgoLcFzYXlkA==",
+      "sha512": "x4pcAkfPEgPN90g1pflcsilpY4yACcbpFI3bEH+llDX/X0Ufo2ZAqjN/Gz9L8a0QPjb2jw6D+SR1VRKfj0in3g==",
       "type": "package",
       "path": "system.security.claims/4.3.0",
       "files": [
@@ -11743,7 +11822,7 @@
       ]
     },
     "System.Security.Cryptography.Csp/4.3.0": {
-      "sha512": "yO2k5o+Z+DiFRBvvB9vdRRAGHi6bm02M9OWXfCqQ8K0UxD3Woc3svQheZfb7PoTEFs0kGacO0IzzMWsb6Mkeow==",
+      "sha512": "3ITA4pAsf2EKEX6zHwdqIxq/lk67Y0JONLVG+JRxps8Z6h7ndvu3vTl1eI+/GQcLXdNal3dmvMi+pUcQsqcpiQ==",
       "type": "package",
       "path": "system.security.cryptography.csp/4.3.0",
       "files": [
@@ -11815,7 +11894,7 @@
       ]
     },
     "System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "vOYy7Jv9KsG3ld2hLt0GoERd82SZi4BelrbXLwI9yFBYX7kpbvUCWYo4eyevk47cuJXZ9ZLVAryANcc7iY71aA==",
+      "sha512": "5Nttsik2e5xVs0CkPRUTCTX5L321jZtRZ25sAOee0farBnmCkf9PYNUe8yt9vTlIP5hyW/SXef+iZgvHYEmg1w==",
       "type": "package",
       "path": "system.security.cryptography.openssl/4.3.0",
       "files": [
@@ -11990,7 +12069,7 @@
       ]
     },
     "System.Security.Principal/4.3.0": {
-      "sha512": "I1tkfQlAoMM2URscUtpcRo/hX0jinXx6a/KUtEQoz3owaYwl3qwsO8cbzYVVnjxrzxjHo3nJC+62uolgeGIS9A==",
+      "sha512": "yFti//89goR6rISfa090PIkWEljVS/Ae/zQiLNI8z1aIanJgLTP6laJexICUfpXkDAvfTakRa0uhAF21lKB8tA==",
       "type": "package",
       "path": "system.security.principal/4.3.0",
       "files": [
@@ -12577,12 +12656,11 @@
       ]
     },
     "System.Threading.Tasks.Parallel/4.3.0": {
-      "sha512": "cbjBNZHf/vQCfcdhzx7knsiygoCKgxL8mZOeocXZn5gWhCdzHIq6bYNKWX0LAJCWYP7bds4yBK8p06YkP0oa0g==",
+      "sha512": "LeLqj7EAB2m2nXvs6pLnDQJYrfoIGoVh4Xn0eeHN7RNJfThWe93JesWjnYCgPJoy4XjdmXlChbkdcfpAulL/ew==",
       "type": "package",
       "path": "system.threading.tasks.parallel/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -12634,7 +12712,7 @@
       ]
     },
     "System.Threading.Thread/4.3.0": {
-      "sha512": "OHmbT+Zz065NKII/ZHcH9XO1dEuLGI1L2k7uYss+9C1jLxTC9kTZZuzUOyXHayRk+dft9CiDf3I/QZ0t8JKyBQ==",
+      "sha512": "1JbPLUh4mZtRfa6yDok7D/Ls8mAubQu7udf9itfTQ5h/DB6O/w7HsjhAq9kNo0orCS/MoME3leaUfnsNhmA9YA==",
       "type": "package",
       "path": "system.threading.thread/4.3.0",
       "files": [
@@ -13025,6 +13103,11 @@
       "path": "../Afnarqui.Prueba.Aplication.Interface/Afnarqui.Prueba.Aplication.Interface.csproj",
       "msbuildProject": "../Afnarqui.Prueba.Aplication.Interface/Afnarqui.Prueba.Aplication.Interface.csproj"
     },
+    "Afnarqui.Prueba.Aplication.Logic/1.0.0": {
+      "type": "project",
+      "path": "../Afnarqui.Prueba.Aplication.Logic/Afnarqui.Prueba.Aplication.Logic.csproj",
+      "msbuildProject": "../Afnarqui.Prueba.Aplication.Logic/Afnarqui.Prueba.Aplication.Logic.csproj"
+    },
     "Afnarqui.Prueba.Transversal.Common/1.0.0": {
       "type": "project",
       "path": "../Afnarqui.Prueba.Transversal.Common/Afnarqui.Prueba.Transversal.Common.csproj",
@@ -13035,9 +13118,11 @@
     ".NETCoreApp,Version=v2.2": [
       "Afnarqui.Prueba.Aplication.DTO >= 1.0.0",
       "Afnarqui.Prueba.Aplication.Interface >= 1.0.0",
+      "Afnarqui.Prueba.Aplication.Logic >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.7.9",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.2.3"
     ]
   },
@@ -13076,6 +13161,9 @@
             },
             "D:\\netcore\\netcore-webapi\\Afnarqui.Prueba\\Afnarqui.Prueba.Aplication.Interface\\Afnarqui.Prueba.Aplication.Interface.csproj": {
               "projectPath": "D:\\netcore\\netcore-webapi\\Afnarqui.Prueba\\Afnarqui.Prueba.Aplication.Interface\\Afnarqui.Prueba.Aplication.Interface.csproj"
+            },
+            "D:\\netcore\\netcore-webapi\\Afnarqui.Prueba\\Afnarqui.Prueba.Aplication.Logic\\Afnarqui.Prueba.Aplication.Logic.csproj": {
+              "projectPath": "D:\\netcore\\netcore-webapi\\Afnarqui.Prueba\\Afnarqui.Prueba.Aplication.Logic\\Afnarqui.Prueba.Aplication.Logic.csproj"
             }
           }
         }
@@ -13105,6 +13193,10 @@
             "target": "Package",
             "version": "[2.2.0, )",
             "autoReferenced": true
+          },
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+            "target": "Package",
+            "version": "[1.7.9, )"
           },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",

@@ -3,39 +3,43 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29001.49
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Afnarqui.Prueba.Transversal.Common", "Afnarqui.Prueba.Transversal.Common\Afnarqui.Prueba.Transversal.Common.csproj", "{36225405-EFD3-4923-9F4E-362E4255D0AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Afnarqui.Prueba.Transversal.Common", "Afnarqui.Prueba.Transversal.Common\Afnarqui.Prueba.Transversal.Common.csproj", "{36225405-EFD3-4923-9F4E-362E4255D0AE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Transversal", "Transversal", "{15142E31-BD6D-4710-BDC7-B5A25B123C23}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructura", "Infraestructura", "{4200B934-E26D-40A4-BFFF-CB0C5B4A089A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Afnarqui.Prueba.Infraestructura.Data", "Afnarqui.Prueba.Infraestructura.Data\Afnarqui.Prueba.Infraestructura.Data.csproj", "{688C8015-E1B5-4170-8C24-01DC5D5B1A7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Afnarqui.Prueba.Infraestructura.Data", "Afnarqui.Prueba.Infraestructura.Data\Afnarqui.Prueba.Infraestructura.Data.csproj", "{688C8015-E1B5-4170-8C24-01DC5D5B1A7E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dominio", "dominio", "{F3907CD9-E7F3-4A70-930F-0CFF5600ADF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Afnarqui.Prueba.Domain.Entity", "Afnarqui.Prueba.Domain.Entity\Afnarqui.Prueba.Domain.Entity.csproj", "{B761C2E3-0F62-4604-896B-DF5A7C6D107C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Afnarqui.Prueba.Domain.Entity", "Afnarqui.Prueba.Domain.Entity\Afnarqui.Prueba.Domain.Entity.csproj", "{B761C2E3-0F62-4604-896B-DF5A7C6D107C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Afnarqui.Prueba.Domain.Interface", "Afnarqui.Prueba.Domain.Interface\Afnarqui.Prueba.Domain.Interface.csproj", "{B8287701-2876-45D5-B5FF-5602EF507693}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Afnarqui.Prueba.Domain.Interface", "Afnarqui.Prueba.Domain.Interface\Afnarqui.Prueba.Domain.Interface.csproj", "{B8287701-2876-45D5-B5FF-5602EF507693}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Afnarqui.Prueba.Infraestructura.Interface", "Afnarqui.Prueba.Infraestructura.Interface\Afnarqui.Prueba.Infraestructura.Interface.csproj", "{6FCA7744-DBA6-4631-A3EA-3457DE34A80B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Afnarqui.Prueba.Infraestructura.Interface", "Afnarqui.Prueba.Infraestructura.Interface\Afnarqui.Prueba.Infraestructura.Interface.csproj", "{6FCA7744-DBA6-4631-A3EA-3457DE34A80B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Afnarqui.Prueba.Infraestructura.Repository", "Afnarqui.Prueba.Infraestructura.Repository\Afnarqui.Prueba.Infraestructura.Repository.csproj", "{3F6142C2-5F4E-4477-86DD-ADF9960D8067}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Afnarqui.Prueba.Infraestructura.Repository", "Afnarqui.Prueba.Infraestructura.Repository\Afnarqui.Prueba.Infraestructura.Repository.csproj", "{3F6142C2-5F4E-4477-86DD-ADF9960D8067}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Afnarqui.Prueba.Domain.Core", "Afnarqui.Prueba.Domain.Core\Afnarqui.Prueba.Domain.Core.csproj", "{9B3F8A87-28A4-42AB-892B-AC57589BC37A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Afnarqui.Prueba.Domain.Core", "Afnarqui.Prueba.Domain.Core\Afnarqui.Prueba.Domain.Core.csproj", "{9B3F8A87-28A4-42AB-892B-AC57589BC37A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "aplicacion", "aplicacion", "{0439F40A-31E7-463D-A356-110E3D4C458D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Afnarqui.Prueba.Aplication.DTO", "Afnarqui.Prueba.Aplication.DTO\Afnarqui.Prueba.Aplication.DTO.csproj", "{1E40D014-930C-4C52-9873-B67EF824FE1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Afnarqui.Prueba.Aplication.DTO", "Afnarqui.Prueba.Aplication.DTO\Afnarqui.Prueba.Aplication.DTO.csproj", "{1E40D014-930C-4C52-9873-B67EF824FE1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Afnarqui.Prueba.Transversal.Mapper", "Afnarqui.Prueba.Transversal.Mapper\Afnarqui.Prueba.Transversal.Mapper.csproj", "{5EB94888-4B75-463B-9107-707899670D8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Afnarqui.Prueba.Transversal.Mapper", "Afnarqui.Prueba.Transversal.Mapper\Afnarqui.Prueba.Transversal.Mapper.csproj", "{5EB94888-4B75-463B-9107-707899670D8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Afnarqui.Prueba.Aplication.Interface", "Afnarqui.Prueba.Aplication.Interface\Afnarqui.Prueba.Aplication.Interface.csproj", "{3CF044E9-FE0F-4CC4-AC94-0E714F46B982}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Afnarqui.Prueba.Aplication.Interface", "Afnarqui.Prueba.Aplication.Interface\Afnarqui.Prueba.Aplication.Interface.csproj", "{3CF044E9-FE0F-4CC4-AC94-0E714F46B982}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Afnarqui.Prueba.Aplication.Main", "Afnarqui.Prueba.Aplication.Main\Afnarqui.Prueba.Aplication.Main.csproj", "{7764B5DE-1E2C-4538-9773-7CD8FC8217DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Afnarqui.Prueba.Aplication.Main", "Afnarqui.Prueba.Aplication.Main\Afnarqui.Prueba.Aplication.Main.csproj", "{7764B5DE-1E2C-4538-9773-7CD8FC8217DF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "servicios", "servicios", "{5FE5B7C0-9F6B-4F27-B1CF-403274735003}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Afnarqui.Prueba.Services.WebApi", "Afnarqui.Prueba.Services.WebApi\Afnarqui.Prueba.Services.WebApi.csproj", "{81BF89D0-2911-47D0-966C-B060774390E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Afnarqui.Prueba.Services.WebApi", "Afnarqui.Prueba.Services.WebApi\Afnarqui.Prueba.Services.WebApi.csproj", "{81BF89D0-2911-47D0-966C-B060774390E9}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{1763A772-A7C9-491C-80A8-D2AAFA9D4B07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Afnarqui.Prueba.Aplication.Logic", "Afnarqui.Prueba.Aplication.Logic\Afnarqui.Prueba.Aplication.Logic.csproj", "{29410985-E73F-4D8B-B7BB-BE830B94F0A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -91,6 +95,14 @@ Global
 		{81BF89D0-2911-47D0-966C-B060774390E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81BF89D0-2911-47D0-966C-B060774390E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81BF89D0-2911-47D0-966C-B060774390E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1763A772-A7C9-491C-80A8-D2AAFA9D4B07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1763A772-A7C9-491C-80A8-D2AAFA9D4B07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1763A772-A7C9-491C-80A8-D2AAFA9D4B07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1763A772-A7C9-491C-80A8-D2AAFA9D4B07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29410985-E73F-4D8B-B7BB-BE830B94F0A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29410985-E73F-4D8B-B7BB-BE830B94F0A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29410985-E73F-4D8B-B7BB-BE830B94F0A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29410985-E73F-4D8B-B7BB-BE830B94F0A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -108,6 +120,7 @@ Global
 		{3CF044E9-FE0F-4CC4-AC94-0E714F46B982} = {0439F40A-31E7-463D-A356-110E3D4C458D}
 		{7764B5DE-1E2C-4538-9773-7CD8FC8217DF} = {0439F40A-31E7-463D-A356-110E3D4C458D}
 		{81BF89D0-2911-47D0-966C-B060774390E9} = {5FE5B7C0-9F6B-4F27-B1CF-403274735003}
+		{29410985-E73F-4D8B-B7BB-BE830B94F0A3} = {0439F40A-31E7-463D-A356-110E3D4C458D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D22D24DB-EC6F-4399-ADA6-9440CB6C5070}

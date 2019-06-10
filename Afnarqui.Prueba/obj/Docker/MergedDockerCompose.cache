@@ -1,0 +1,11 @@
+services:
+  afnarqui.prueba.services.webapi:
+    build:
+      context: D:\netcore\netcore-webapi\Afnarqui.Prueba
+      dockerfile: Afnarqui.Prueba.Services.WebApi/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: afnarquipruebaserviceswebapi
+    ports:
+    - target: 80
+version: '3.4'
