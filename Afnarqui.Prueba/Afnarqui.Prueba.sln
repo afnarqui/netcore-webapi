@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dominio", "dominio", "{F390
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Afnarqui.Prueba.Domain.Entity", "Afnarqui.Prueba.Domain.Entity\Afnarqui.Prueba.Domain.Entity.csproj", "{B761C2E3-0F62-4604-896B-DF5A7C6D107C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Afnarqui.Prueba.Domain.Interface", "Afnarqui.Prueba.Domain.Interface\Afnarqui.Prueba.Domain.Interface.csproj", "{B8287701-2876-45D5-B5FF-5602EF507693}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{B761C2E3-0F62-4604-896B-DF5A7C6D107C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B761C2E3-0F62-4604-896B-DF5A7C6D107C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B761C2E3-0F62-4604-896B-DF5A7C6D107C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8287701-2876-45D5-B5FF-5602EF507693}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8287701-2876-45D5-B5FF-5602EF507693}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8287701-2876-45D5-B5FF-5602EF507693}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8287701-2876-45D5-B5FF-5602EF507693}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +47,7 @@ Global
 		{36225405-EFD3-4923-9F4E-362E4255D0AE} = {15142E31-BD6D-4710-BDC7-B5A25B123C23}
 		{688C8015-E1B5-4170-8C24-01DC5D5B1A7E} = {4200B934-E26D-40A4-BFFF-CB0C5B4A089A}
 		{B761C2E3-0F62-4604-896B-DF5A7C6D107C} = {F3907CD9-E7F3-4A70-930F-0CFF5600ADF6}
+		{B8287701-2876-45D5-B5FF-5602EF507693} = {F3907CD9-E7F3-4A70-930F-0CFF5600ADF6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D22D24DB-EC6F-4399-ADA6-9440CB6C5070}
