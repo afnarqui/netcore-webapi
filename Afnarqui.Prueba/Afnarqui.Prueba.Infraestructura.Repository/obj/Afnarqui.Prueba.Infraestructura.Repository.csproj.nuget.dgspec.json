@@ -4,6 +4,114 @@
     "D:\\netcore\\netcore-webapi\\Afnarqui.Prueba\\Afnarqui.Prueba.Infraestructura.Repository\\Afnarqui.Prueba.Infraestructura.Repository.csproj": {}
   },
   "projects": {
+    "D:\\netcore\\netcore-webapi\\Afnarqui.Prueba\\Afnarqui.Prueba.Domain.Entity\\Afnarqui.Prueba.Domain.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\netcore\\netcore-webapi\\Afnarqui.Prueba\\Afnarqui.Prueba.Domain.Entity\\Afnarqui.Prueba.Domain.Entity.csproj",
+        "projectName": "Afnarqui.Prueba.Domain.Entity",
+        "projectPath": "D:\\netcore\\netcore-webapi\\Afnarqui.Prueba\\Afnarqui.Prueba.Domain.Entity\\Afnarqui.Prueba.Domain.Entity.csproj",
+        "packagesPath": "C:\\Users\\afnarqui\\.nuget\\packages\\",
+        "outputPath": "D:\\netcore\\netcore-webapi\\Afnarqui.Prueba\\Afnarqui.Prueba.Domain.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\afnarqui\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\netcore\\netcore-webapi\\Afnarqui.Prueba\\Afnarqui.Prueba.Infraestructura.Interface\\Afnarqui.Prueba.Infraestructura.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\netcore\\netcore-webapi\\Afnarqui.Prueba\\Afnarqui.Prueba.Infraestructura.Interface\\Afnarqui.Prueba.Infraestructura.Interface.csproj",
+        "projectName": "Afnarqui.Prueba.Infraestructura.Interface",
+        "projectPath": "D:\\netcore\\netcore-webapi\\Afnarqui.Prueba\\Afnarqui.Prueba.Infraestructura.Interface\\Afnarqui.Prueba.Infraestructura.Interface.csproj",
+        "packagesPath": "C:\\Users\\afnarqui\\.nuget\\packages\\",
+        "outputPath": "D:\\netcore\\netcore-webapi\\Afnarqui.Prueba\\Afnarqui.Prueba.Infraestructura.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\afnarqui\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\netcore\\netcore-webapi\\Afnarqui.Prueba\\Afnarqui.Prueba.Domain.Entity\\Afnarqui.Prueba.Domain.Entity.csproj": {
+                "projectPath": "D:\\netcore\\netcore-webapi\\Afnarqui.Prueba\\Afnarqui.Prueba.Domain.Entity\\Afnarqui.Prueba.Domain.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
     "D:\\netcore\\netcore-webapi\\Afnarqui.Prueba\\Afnarqui.Prueba.Infraestructura.Repository\\Afnarqui.Prueba.Infraestructura.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -12,6 +120,69 @@
         "projectPath": "D:\\netcore\\netcore-webapi\\Afnarqui.Prueba\\Afnarqui.Prueba.Infraestructura.Repository\\Afnarqui.Prueba.Infraestructura.Repository.csproj",
         "packagesPath": "C:\\Users\\afnarqui\\.nuget\\packages\\",
         "outputPath": "D:\\netcore\\netcore-webapi\\Afnarqui.Prueba\\Afnarqui.Prueba.Infraestructura.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\afnarqui\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\netcore\\netcore-webapi\\Afnarqui.Prueba\\Afnarqui.Prueba.Infraestructura.Interface\\Afnarqui.Prueba.Infraestructura.Interface.csproj": {
+                "projectPath": "D:\\netcore\\netcore-webapi\\Afnarqui.Prueba\\Afnarqui.Prueba.Infraestructura.Interface\\Afnarqui.Prueba.Infraestructura.Interface.csproj"
+              },
+              "D:\\netcore\\netcore-webapi\\Afnarqui.Prueba\\Afnarqui.Prueba.Transversal.Common\\Afnarqui.Prueba.Transversal.Common.csproj": {
+                "projectPath": "D:\\netcore\\netcore-webapi\\Afnarqui.Prueba\\Afnarqui.Prueba.Transversal.Common\\Afnarqui.Prueba.Transversal.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[1.60.6, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\netcore\\netcore-webapi\\Afnarqui.Prueba\\Afnarqui.Prueba.Transversal.Common\\Afnarqui.Prueba.Transversal.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\netcore\\netcore-webapi\\Afnarqui.Prueba\\Afnarqui.Prueba.Transversal.Common\\Afnarqui.Prueba.Transversal.Common.csproj",
+        "projectName": "Afnarqui.Prueba.Transversal.Common",
+        "projectPath": "D:\\netcore\\netcore-webapi\\Afnarqui.Prueba\\Afnarqui.Prueba.Transversal.Common\\Afnarqui.Prueba.Transversal.Common.csproj",
+        "packagesPath": "C:\\Users\\afnarqui\\.nuget\\packages\\",
+        "outputPath": "D:\\netcore\\netcore-webapi\\Afnarqui.Prueba\\Afnarqui.Prueba.Transversal.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
