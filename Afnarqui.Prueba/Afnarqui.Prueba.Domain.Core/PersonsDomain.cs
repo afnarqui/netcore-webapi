@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Afnarqui.Prueba.Infraestructura.Repository;
 using Afnarqui.Prueba.Domain.Interface;
 
-namespace Afnarqui.Pruebas.Domain.Core
+namespace Afnarqui.Prueba.Domain.Core
 {
     class PersonsDomain : IPersonsDomain
     {
