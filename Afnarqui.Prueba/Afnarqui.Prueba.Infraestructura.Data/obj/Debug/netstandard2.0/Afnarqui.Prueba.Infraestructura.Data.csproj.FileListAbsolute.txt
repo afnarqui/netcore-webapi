@@ -1,0 +1,12 @@
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Infraestructura.Data\bin\Debug\netstandard2.0\Afnarqui.Prueba.Infraestructura.Data.deps.json
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Infraestructura.Data\bin\Debug\netstandard2.0\Afnarqui.Prueba.Infraestructura.Data.dll
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Infraestructura.Data\obj\Debug\netstandard2.0\Afnarqui.Prueba.Infraestructura.Data.csprojAssemblyReference.cache
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Infraestructura.Data\obj\Debug\netstandard2.0\Afnarqui.Prueba.Infraestructura.Data.csproj.CoreCompileInputs.cache
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Infraestructura.Data\obj\Debug\netstandard2.0\Afnarqui.Prueba.Infraestructura.Data.AssemblyInfoInputs.cache
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Infraestructura.Data\obj\Debug\netstandard2.0\Afnarqui.Prueba.Infraestructura.Data.AssemblyInfo.cs
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Infraestructura.Data\bin\Debug\netstandard2.0\Afnarqui.Prueba.Transversal.Common.dll
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Infraestructura.Data\bin\Debug\netstandard2.0\Afnarqui.Prueba.Transversal.Common.pdb
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Infraestructura.Data\obj\Debug\netstandard2.0\Afnarqui.Prueba.Infraestructura.Data.csproj.CopyComplete
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Infraestructura.Data\bin\Debug\netstandard2.0\Afnarqui.Prueba.Infraestructura.Data.pdb
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Infraestructura.Data\obj\Debug\netstandard2.0\Afnarqui.Prueba.Infraestructura.Data.dll
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Infraestructura.Data\obj\Debug\netstandard2.0\Afnarqui.Prueba.Infraestructura.Data.pdb
