@@ -4,4 +4,16 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Afnarqui.Prueba.Aplication.DTO\Afnarqui.Prueba.Aplication.DTO.csproj" />
+    <ProjectReference Include="..\Afnarqui.Prueba.Aplication.Interface\Afnarqui.Prueba.Aplication.Interface.csproj" />
+    <ProjectReference Include="..\Afnarqui.Prueba.Domain.Entity\Afnarqui.Prueba.Domain.Entity.csproj" />
+    <ProjectReference Include="..\Afnarqui.Prueba.Domain.Interface\Afnarqui.Prueba.Domain.Interface.csproj" />
+    <ProjectReference Include="..\Afnarqui.Prueba.Transversal.Common\Afnarqui.Prueba.Transversal.Common.csproj" />
+  </ItemGroup>
+
 </Project>
