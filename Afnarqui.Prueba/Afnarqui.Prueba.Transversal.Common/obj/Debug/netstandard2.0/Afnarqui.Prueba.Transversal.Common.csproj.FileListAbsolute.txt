@@ -6,3 +6,4 @@ D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Transversal.Common\obj
 D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Transversal.Common\obj\Debug\netstandard2.0\Afnarqui.Prueba.Transversal.Common.AssemblyInfo.cs
 D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Transversal.Common\obj\Debug\netstandard2.0\Afnarqui.Prueba.Transversal.Common.dll
 D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Transversal.Common\obj\Debug\netstandard2.0\Afnarqui.Prueba.Transversal.Common.pdb
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Transversal.Common\obj\Debug\netstandard2.0\Afnarqui.Prueba.Transversal.Common.csprojAssemblyReference.cache

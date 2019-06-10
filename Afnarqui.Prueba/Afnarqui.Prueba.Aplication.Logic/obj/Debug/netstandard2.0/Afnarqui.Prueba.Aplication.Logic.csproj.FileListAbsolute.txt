@@ -1,0 +1,9 @@
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Aplication.Logic\bin\Debug\netstandard2.0\Afnarqui.Prueba.Aplication.Logic.deps.json
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Aplication.Logic\bin\Debug\netstandard2.0\Afnarqui.Prueba.Aplication.Logic.dll
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Aplication.Logic\bin\Debug\netstandard2.0\Afnarqui.Prueba.Aplication.Logic.pdb
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Aplication.Logic\obj\Debug\netstandard2.0\Afnarqui.Prueba.Aplication.Logic.csprojAssemblyReference.cache
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Aplication.Logic\obj\Debug\netstandard2.0\Afnarqui.Prueba.Aplication.Logic.csproj.CoreCompileInputs.cache
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Aplication.Logic\obj\Debug\netstandard2.0\Afnarqui.Prueba.Aplication.Logic.AssemblyInfoInputs.cache
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Aplication.Logic\obj\Debug\netstandard2.0\Afnarqui.Prueba.Aplication.Logic.AssemblyInfo.cs
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Aplication.Logic\obj\Debug\netstandard2.0\Afnarqui.Prueba.Aplication.Logic.dll
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Aplication.Logic\obj\Debug\netstandard2.0\Afnarqui.Prueba.Aplication.Logic.pdb

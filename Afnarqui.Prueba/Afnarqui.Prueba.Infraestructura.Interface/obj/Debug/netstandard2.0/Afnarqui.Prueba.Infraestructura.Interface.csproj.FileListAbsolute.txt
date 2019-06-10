@@ -9,3 +9,4 @@ D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Infraestructura.Interf
 D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Infraestructura.Interface\bin\Debug\netstandard2.0\Afnarqui.Prueba.Domain.Entity.dll
 D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Infraestructura.Interface\bin\Debug\netstandard2.0\Afnarqui.Prueba.Domain.Entity.pdb
 D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Infraestructura.Interface\obj\Debug\netstandard2.0\Afnarqui.Prueba.Infraestructura.Interface.csproj.CopyComplete
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Infraestructura.Interface\obj\Debug\netstandard2.0\Afnarqui.Prueba.Infraestructura.Interface.csprojAssemblyReference.cache

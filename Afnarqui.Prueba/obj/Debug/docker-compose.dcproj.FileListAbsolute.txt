@@ -1,0 +1,7 @@
+D:\netcore\netcore-webapi\Afnarqui.Prueba\bin\Debug\Afnarqui.Prueba.Services.WebApi.dll
+D:\netcore\netcore-webapi\Afnarqui.Prueba\bin\Debug\Afnarqui.Prueba.Services.WebApi.pdb
+D:\netcore\netcore-webapi\Afnarqui.Prueba\obj\Debug\docker-compose.dcprojAssemblyReference.cache
+D:\netcore\netcore-webapi\Afnarqui.Prueba\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+D:\netcore\netcore-webapi\Afnarqui.Prueba\obj\Debug\docker-compose.dcproj.CopyComplete
+D:\netcore\netcore-webapi\Afnarqui.Prueba\bin\Debug\Afnarqui.Prueba.Aplication.Logic.dll
+D:\netcore\netcore-webapi\Afnarqui.Prueba\bin\Debug\Afnarqui.Prueba.Aplication.Logic.pdb
