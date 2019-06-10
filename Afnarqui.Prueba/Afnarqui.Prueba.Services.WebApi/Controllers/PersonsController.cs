@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Afnarqui.Prueba.Aplication.DTO;
 using Afnarqui.Prueba.Aplication.Interface;
 using Afnarqui.Prueba.Aplication.Logic;
+using Microsoft.AspNetCore.Cors;
 
 namespace Afnarqui.Prueba.Services.WebApi.Controllers
 {
@@ -14,11 +15,12 @@ namespace Afnarqui.Prueba.Services.WebApi.Controllers
     [ApiController]
     public class PersonsController : ControllerBase
     {
-        [HttpGet]
-        public string Get()
+        //[EnableCors("policy")]
+        [HttpGet("{valor}")]
+        public string Get(string valor)
         {
             var response = new Travel();
-            return response.search().ToString();
+            return response.search(valor).ToString();
         }
 
 

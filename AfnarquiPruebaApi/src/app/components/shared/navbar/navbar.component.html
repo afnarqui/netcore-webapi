@@ -1,0 +1,33 @@
+<br>
+<br>
+<br>
+<br>
+<hr>
+
+<div class="container">
+
+
+    <div class="was-validated">
+        <div class="form-row">
+            <div class="col-md-4 mb-3">
+                <label for="validationCustom01"></label>
+                <input #ced type="text" class="form-control" id="validationCustom01" placeholder="Identity card" value="" required>
+            </div>
+        </div>
+        <div class="custom-file">
+            <input #fil (change)="search($event)" type="file" class="custom-file-input" id="validatedCustomFile" required>
+            <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
+        </div>
+        <br>
+        <br>
+        <!-- <div class="card">
+            <button (click)="searchArchivo(ced,fil)" class="btn btn-primary" type="button">Sumit</button>
+        </div> -->
+    </div>
+</div>
+
+<div class="card text-center" *ngIf="dataresponse!==undefined">
+    <h4>valor que devolvió:</h4>
+    <br>
+    <p><strong>{{dataresponse}}</strong></p>
+</div>

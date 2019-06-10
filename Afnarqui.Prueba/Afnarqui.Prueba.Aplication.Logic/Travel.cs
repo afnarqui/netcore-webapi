@@ -6,10 +6,10 @@ namespace Afnarqui.Prueba.Aplication.Logic
     public class Travel
     {
 
-        public string search()
+        public string search(string cadena)
         {
-            
-            return "my string";
+            var cadenanueva = cadena;
+            return "my string " + cadenanueva;
         }
        
     }
