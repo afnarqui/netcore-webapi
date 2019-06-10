@@ -7,3 +7,6 @@ D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Domain.Interface\obj\D
 D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Domain.Interface\obj\Debug\netstandard2.0\Afnarqui.Prueba.Domain.Interface.AssemblyInfo.cs
 D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Domain.Interface\obj\Debug\netstandard2.0\Afnarqui.Prueba.Domain.Interface.dll
 D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Domain.Interface\obj\Debug\netstandard2.0\Afnarqui.Prueba.Domain.Interface.pdb
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Domain.Interface\bin\Debug\netstandard2.0\Afnarqui.Prueba.Domain.Entity.dll
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Domain.Interface\bin\Debug\netstandard2.0\Afnarqui.Prueba.Domain.Entity.pdb
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Domain.Interface\obj\Debug\netstandard2.0\Afnarqui.Prueba.Domain.Interface.csproj.CopyComplete
