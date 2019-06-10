@@ -1,0 +1,9 @@
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Transversal.Common\bin\Debug\netstandard2.0\Afnarqui.Prueba.Transversal.Common.deps.json
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Transversal.Common\bin\Debug\netstandard2.0\Afnarqui.Prueba.Transversal.Common.dll
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Transversal.Common\bin\Debug\netstandard2.0\Afnarqui.Prueba.Transversal.Common.pdb
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Transversal.Common\obj\Debug\netstandard2.0\Afnarqui.Prueba.Transversal.Common.csprojAssemblyReference.cache
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Transversal.Common\obj\Debug\netstandard2.0\Afnarqui.Prueba.Transversal.Common.csproj.CoreCompileInputs.cache
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Transversal.Common\obj\Debug\netstandard2.0\Afnarqui.Prueba.Transversal.Common.AssemblyInfoInputs.cache
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Transversal.Common\obj\Debug\netstandard2.0\Afnarqui.Prueba.Transversal.Common.AssemblyInfo.cs
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Transversal.Common\obj\Debug\netstandard2.0\Afnarqui.Prueba.Transversal.Common.dll
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Transversal.Common\obj\Debug\netstandard2.0\Afnarqui.Prueba.Transversal.Common.pdb
