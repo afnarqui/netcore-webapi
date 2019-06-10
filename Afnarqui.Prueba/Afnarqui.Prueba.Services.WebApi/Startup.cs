@@ -14,6 +14,7 @@ namespace Afnarqui.Prueba.Services.WebApi
 {
     public class Startup
     {
+        readonly string myPolicy = "policy";
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -24,6 +25,18 @@ namespace Afnarqui.Prueba.Services.WebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //services.AddCors(options => options.AddPolicy(myPolicy, builder => builder.WithOrigins(Configuration["Config:OriginCors"])
+            //                                                                           .AllowAnyHeader()
+            //                                                                           .AllowAnyMethod()));
+            services.AddCors(options =>
+            {
+                options.AddPolicy(myPolicy,
+                builder =>
+                {
+                    builder.WithOrigins("http://3.19.120.22:4200",
+                                        "http://3.19.120.22:32768");
+                });
+            });
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
@@ -34,7 +47,7 @@ namespace Afnarqui.Prueba.Services.WebApi
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseCors(myPolicy);
             app.UseMvc();
         }
     }
