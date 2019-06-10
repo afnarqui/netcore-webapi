@@ -1,0 +1,14 @@
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Aplication.Interface\bin\Debug\netstandard2.0\Afnarqui.Prueba.Aplication.Interface.deps.json
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Aplication.Interface\bin\Debug\netstandard2.0\Afnarqui.Prueba.Aplication.Interface.dll
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Aplication.Interface\bin\Debug\netstandard2.0\Afnarqui.Prueba.Aplication.Interface.pdb
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Aplication.Interface\bin\Debug\netstandard2.0\Afnarqui.Prueba.Aplication.DTO.dll
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Aplication.Interface\bin\Debug\netstandard2.0\Afnarqui.Prueba.Transversal.Common.dll
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Aplication.Interface\bin\Debug\netstandard2.0\Afnarqui.Prueba.Aplication.DTO.pdb
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Aplication.Interface\bin\Debug\netstandard2.0\Afnarqui.Prueba.Transversal.Common.pdb
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Aplication.Interface\obj\Debug\netstandard2.0\Afnarqui.Prueba.Aplication.Interface.csprojAssemblyReference.cache
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Aplication.Interface\obj\Debug\netstandard2.0\Afnarqui.Prueba.Aplication.Interface.csproj.CoreCompileInputs.cache
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Aplication.Interface\obj\Debug\netstandard2.0\Afnarqui.Prueba.Aplication.Interface.AssemblyInfoInputs.cache
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Aplication.Interface\obj\Debug\netstandard2.0\Afnarqui.Prueba.Aplication.Interface.AssemblyInfo.cs
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Aplication.Interface\obj\Debug\netstandard2.0\Afnarqui.Prueba.Aplication.Interface.csproj.CopyComplete
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Aplication.Interface\obj\Debug\netstandard2.0\Afnarqui.Prueba.Aplication.Interface.dll
+D:\netcore\netcore-webapi\Afnarqui.Prueba\Afnarqui.Prueba.Aplication.Interface\obj\Debug\netstandard2.0\Afnarqui.Prueba.Aplication.Interface.pdb
