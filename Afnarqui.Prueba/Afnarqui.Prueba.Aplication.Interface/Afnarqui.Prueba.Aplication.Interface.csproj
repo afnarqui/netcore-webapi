@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Afnarqui.Prueba.Aplication.DTO\Afnarqui.Prueba.Aplication.DTO.csproj" />
+    <ProjectReference Include="..\Afnarqui.Prueba.Transversal.Common\Afnarqui.Prueba.Transversal.Common.csproj" />
+  </ItemGroup>
+
+</Project>
