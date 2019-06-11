@@ -37,6 +37,7 @@ export class NavbarComponent implements OnInit {
         var datanueva = this.fil.split('\n')
 
         for(let i = 0; i< datanueva.length;i++){
+          console.log(datanueva[i])
            this.nuevacadenahttp+= datanueva[i] + ",";
         }
         this.getCharaters(this.nuevacadenahttp).
@@ -58,8 +59,9 @@ export class NavbarComponent implements OnInit {
 
 getCharaters(valor) {
   // http://3.19.120.22:32768/api/Persons
+  //  "http://3.19.120.22:32771/api/Persons"
   // let data = "http://localhost:32768/api/Persons"
-  let data = "http://3.19.120.22:81/api/Persons"
+  let data = "http://localhost:32775/api/Persons"
   return this.http.get(`${data}/${valor}`)
   .pipe(
     map(res => JSON.stringify(res))
