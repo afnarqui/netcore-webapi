@@ -28,13 +28,22 @@ namespace Afnarqui.Prueba.Services.WebApi
             //services.AddCors(options => options.AddPolicy(myPolicy, builder => builder.WithOrigins(Configuration["Config:OriginCors"])
             //                                                                           .AllowAnyHeader()
             //                                                                           .AllowAnyMethod()));
+            //services.AddCors(options =>
+            //{
+            //    options.AddPolicy(myPolicy,
+            //    builder =>
+            //    {
+            //        builder.WithOrigins("http://3.19.120.22:4200",
+            //                            "http://3.19.120.22:81");
+            //    });
+            //});
             services.AddCors(options =>
             {
                 options.AddPolicy(myPolicy,
                 builder =>
                 {
-                    builder.WithOrigins("http://3.19.120.22:4200",
-                                        "http://3.19.120.22:32768");
+                    builder.WithOrigins("http://localhost:4200",
+                                        "http://localhost:32771");
                 });
             });
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
