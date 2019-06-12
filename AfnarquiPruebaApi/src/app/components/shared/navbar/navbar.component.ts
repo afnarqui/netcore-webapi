@@ -1,10 +1,13 @@
 import { Component, OnInit,Input } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { map } from 'rxjs/operators';
+import {ExcelService} from '../../../services/excel.service';
+
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
-  styles: []
+  styles: [],
+  providers: [ExcelService]
 })
 export class NavbarComponent implements OnInit {
   files:any;
@@ -12,9 +15,9 @@ export class NavbarComponent implements OnInit {
   ced: string;
   dataresponse = undefined;
   nuevacadenahttp = ""
+  data
 
-
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient,private excelService:ExcelService) { }
 
   ngOnInit() {
   }
@@ -42,14 +45,14 @@ export class NavbarComponent implements OnInit {
         }
         this.getCharaters(this.nuevacadenahttp).
         subscribe((data)=>{
-          console.log('desde el ok')
-          console.log(data)
           this.dataresponse = data
-          // console.log(data['error']['error']['text'])
+          this.clear();
         }, (er)=>{
-          console.log('desde el error')
-          console.log(er['error']['text'])
           this.dataresponse = er['error']['text']
+         var request = JSON.stringify(this.dataresponse)
+          var requestNew = request.split(";");
+          this.dataresponse = requestNew;
+          this.clear();
         })
 
     };
@@ -57,15 +60,25 @@ export class NavbarComponent implements OnInit {
 
 }
 
+clear() {
+  this.files = null;
+  this.fil= null;
+  this.ced= "";
+  this.nuevacadenahttp= null;
+  this.data= null;
+}
+
 getCharaters(valor) {
   // http://3.19.120.22:32768/api/Persons
-  //  "http://3.19.120.22:32771/api/Persons"
-  // let data = "http://localhost:32768/api/Persons"
-  let data = "http://localhost:32775/api/Persons"
+  let data = "http://localhost:32768/api/Persons"
   return this.http.get(`${data}/${valor}`)
   .pipe(
     map(res => JSON.stringify(res))
   )
+}
+
+exportExcel():void {
+  this.excelService.exportAsExcelFile(this.dataresponse, 'sample');
 }
 
 
