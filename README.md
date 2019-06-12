@@ -1,5 +1,7 @@
 # netcore-webapi
 
+[![N|Solid](https://res.cloudinary.com/drqk6qzo7/image/upload/v1560322165/CU34_deploy_aws_with_docker-compose_wlohut.png)](https://nodesource.com/products/nsolid)
+
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 project architecture orient of the domain. developed in netcore with dapper, sql server and tdd using docker-compose
@@ -46,6 +48,11 @@ http://localhost:8081/
 ## exec contenedor in aws
 ```sh
 docker run --rm -d -p 80:80/tcp afnarqui/netcore:v1
+```
+
+## run aplication in production
+```sh
+http://3.19.120.22/
 ```
 
 
