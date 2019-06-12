@@ -69,8 +69,7 @@ clear() {
 }
 
 getCharaters(valor) {
-  // http://3.19.120.22:32768/api/Persons
-  let data = "http://localhost:32768/api/Persons"
+  let data = "http://3.19.120.22:81/api/Persons"
   return this.http.get(`${data}/${valor}`)
   .pipe(
     map(res => JSON.stringify(res))

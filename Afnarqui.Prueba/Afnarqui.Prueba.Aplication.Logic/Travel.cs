@@ -24,10 +24,7 @@ namespace Afnarqui.Prueba.Aplication.Logic
             var recorrerValores = new List<devolver>();
             var recorrerValoresCopia = new List<devolver>();
 
-            //var list = new List<KeyValuePair<string, int>>() {
-            //    new KeyValuePair<string, int>("A", 1)};
-
-
+         
 
             foreach (string item in data)
             {
@@ -298,8 +295,6 @@ namespace Afnarqui.Prueba.Aplication.Logic
                             }
                         }
 
-
-
                     }
 
                 }
@@ -347,8 +342,6 @@ namespace Afnarqui.Prueba.Aplication.Logic
             {
                 valuesReturncadena+= "Case #" + recorrerValoresCopia[i].dia.ToString() + ": " + recorrerValoresCopia[i].value.ToString() + ";";
             }
-
-
 
 
             return valuesReturncadena;
