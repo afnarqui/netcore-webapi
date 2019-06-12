@@ -14,10 +14,21 @@ namespace Afnarqui.Prueba.Aplication.Logic
             string[] data = values.Split(',');
             List<int> valuesNew = new List<int>();
             List<int> valuesChanges = new List<int>();
+            List<int> valuesChangesCopia = new List<int>();
+            List<int> valuesChangesCopiaPosicion = new List<int>();
             List<int> valuesTemp = new List<int>();
             List<int> valuesTempReal = new List<int>();
             List<int> valuesReturn = new List<int>();
             var valuesReturncadena = "";
+            var listvaluesReturncadena = new List<KeyValuePair<int, int>>();
+            var recorrerValores = new List<devolver>();
+            var recorrerValoresCopia = new List<devolver>();
+
+            //var list = new List<KeyValuePair<string, int>>() {
+            //    new KeyValuePair<string, int>("A", 1)};
+
+
+
             foreach (string item in data)
             {
                 if (item.Trim() != "")
@@ -46,6 +57,9 @@ namespace Afnarqui.Prueba.Aplication.Logic
                 {
                     int firts = valuesNew[0];
                     valuesNew.RemoveAt(0);
+                    valuesTemp.Clear();
+                    valuesTempReal.Clear();
+                    valuesChanges.Clear();
 
                     for (int k = 0; k < firts; k++)
                     {
@@ -58,19 +72,18 @@ namespace Afnarqui.Prueba.Aplication.Logic
 
                     var sumar = 0;
                     var cuantos = 0;
+
                     while (ultimo > 0)
                     {
                         int firtMa = valuesChanges[0];
                         if (firtMa >= 50 && firtMa <= 100)
                         {
                             valuesTempReal.Add(valuesChanges[0]);
-                            valuesTempReal.Add(valuesChanges[ultimo]);
                             cuantos = cuantos + 1;
                             var day = i + 1;
+                          
+                            recorrerValores.Add(new devolver { dia = day, value = 1 });
 
-                            valuesReturncadena += "Case #" + day.ToString() + ": " + cuantos.ToString() + '\n';
-
-                            valuesChanges.RemoveAt(ultimo);
                             valuesChanges.RemoveAt(0);
                             ultimo = ultimo - 1;
 
@@ -93,18 +106,53 @@ namespace Afnarqui.Prueba.Aplication.Logic
                                 }
                             }
 
-                            if (result >= 50 && result <= 100)
+                            if (result >= 50)
                             {
-                                valuesTempReal.Add(valuesChanges[0]);
-                                valuesTempReal.Add(valuesChanges[ultimo]);
-                                cuantos = cuantos + 1;
-                                var day = i + 1;
+                                if (result > 100)
+                                {
+                                    var menoraaUltaaaa = 0;
+                                    var mayoraaUltaaaa = 0;
+                                    var contadoraaUltaaaa = 0;
+                                    var countaaaa = valuesChanges.Count;
+                                    valuesChangesCopia.Clear();
+                                    valuesChangesCopiaPosicion.Clear();
+                                    for (int k = 0; k < valuesChanges.Count; k++)
+                                    {
+                                        valuesChangesCopia.Add(valuesChanges[k]);
+                                    }
+                                    if (i == 4)
+                                    {
+                                        var afn = "";
+                                    }
+                                    for (int aaaa = 0; aaaa < countaaaa; aaaa++)
+                                    {
+                                        if (valuesChangesCopia[aaaa] >= 50 && valuesChangesCopia[aaaa] <= 100)
+                                        {
+                                            var day = i + 1;
+                                                                                                 
+                                            recorrerValores.Add(new devolver { dia = day, value = 1 });
+                                            ultimo = ultimo - 1;
+                                        }
+                                    }
+                                    for (int k = 0; k < valuesChangesCopiaPosicion.Count; k++)
+                                    {
+                                        valuesChanges.RemoveAt(valuesChangesCopiaPosicion[k]);
+                                    }
 
-                                valuesReturncadena += "Case #" + day.ToString() + ": " + cuantos.ToString() + '\n';
+                                }
+                                else
+                                {
+                                    valuesTempReal.Add(valuesChanges[0]);
+                                    valuesTempReal.Add(valuesChanges[ultimo]);
+                                    cuantos = cuantos + 1;
+                                    var day = i + 1;
+                                                                                       
+                                    recorrerValores.Add(new devolver { dia = day, value = 1 });
 
-                                valuesChanges.RemoveAt(ultimo);
-                                valuesChanges.RemoveAt(0);
-                                ultimo = ultimo - valuesTempReal.Count;
+                                    valuesChanges.RemoveAt(ultimo);
+                                    valuesChanges.RemoveAt(0);
+                                    ultimo = ultimo - valuesTempReal.Count;
+                                }
                             }
                             else
                             {
@@ -132,41 +180,26 @@ namespace Afnarqui.Prueba.Aplication.Logic
                                     var queHago = false;
                                     for (int j = 0; j < ciclo; j++)
                                     {
-                                        //var por = valuesTemp.Count;
-                                        //int firtOld = valuesTemp[0];
-                                        //int ultOld = valuesTemp[valuesTemp.Count - 1];
 
-                                        if (j % 2 == 0 && valuesTemp.Count > 1)
+                                        if (queHago == false)
                                         {
-                                            valuesReturn.Add(valuesTemp[0]);
                                             valuesReturn.Add(valuesTemp[valuesTemp.Count - 1]);
-                                            valuesTemp.RemoveAt(0);
                                             valuesTemp.RemoveAt(valuesTemp.Count - 1);
+                                            queHago = true;
                                         }
                                         else
                                         {
-                                            if(queHago == true)
-                                            {
-                                                valuesReturn.Add(valuesTemp[valuesTemp.Count - 1]);
-                                                valuesTemp.RemoveAt(valuesTemp.Count - 1);
-                                                queHago = false;
-                                            }
-                                            else
-                                            {
-                                                valuesReturn.Add(valuesTemp[0]);
-                                                valuesTemp.RemoveAt(0);
-                                                queHago = true;
-                                            }
-                                            
-                                            
+                                            valuesReturn.Add(valuesTemp[0]);
+                                            valuesTemp.RemoveAt(0);
+                                            queHago = false;
                                         }
-
-
 
                                         var contadoraa = 0;
                                         var menoraa = 0;
                                         var mayoraa = 0;
-                                        for (int aa = 0; aa < valuesReturn.Count; aa++)
+                                        int aa = 0;
+                                        int recoaa = valuesReturn.Count;
+                                        for (aa = 0; aa < recoaa; aa++)
                                         {
                                             if (valuesReturn[aa] > mayoraa)
                                             {
@@ -186,92 +219,75 @@ namespace Afnarqui.Prueba.Aplication.Logic
                                                     result = mayoraa * contadoraa;
                                                     valuesReturn.Clear();
                                                 }
+                                                else
+                                                {
+                                                    result = 0;
+                                                }
                                             }
 
                                         }
 
 
-                                      
+
                                         if (result >= 50 && result <= 100)
                                         {
-                                          
+
                                             cuantos = cuantos + 1;
                                             var day = i + 1;
                                             if (valuesTemp.Count == 0)
                                             {
                                                 j = ciclo + 1;
                                             }
-                                            valuesReturncadena += "Case #" + day.ToString() + ":1";
-                                            
-                                      
+                                                    
+                                            recorrerValores.Add(new devolver { dia = day, value = 1 });
+
+
                                             ultimo = ultimo - contadoraa;
                                         }
                                         else
                                         {
-                                            var ultimoUltimo = valuesChanges.Count;
+                                            var ultimoUltimo = 0;
+                                            ultimoUltimo = valuesReturn.Count;
 
                                             var sumarUltimo = 0;
                                             var cuantosUltimo = 0;
                                             var resultUltimo = 0;
-                                            while (ultimoUltimo > 0)
+                                            while (ultimoUltimo > 0 && aa == valuesReturn.Count + valuesTemp.Count)
                                             {
-                                                var porUltimo = valuesTemp.Count;
-                                                var porUltimoReal = porUltimo + 1;
-                                                var reporUltimoReal = valuesTemp.FindIndex(x => x == valuesTemp[0]);
-
-                                                int firtOldUltimo = valuesTemp[0];
-                                                int ultOldUltimo = valuesTemp[porUltimo - 1];
-                                                int valorNuevo = valuesChanges[0];
-                                                if (valorNuevo > firtOldUltimo && valorNuevo > ultOldUltimo)
+                                                var contadoraaUlt = 0;
+                                                var menoraaUlt = 0;
+                                                var mayoraaUlt = 0;
+                                                for (int aaa = 0; aaa < valuesReturn.Count; aaa++)
                                                 {
-                                                    resultUltimo = valorNuevo * porUltimoReal;
-                                                }
-                                                else
-                                                {
-                                                    if (firtOldUltimo > ultOldUltimo)
+                                                    if (valuesReturn[aaa] > mayoraaUlt)
                                                     {
-                                                        resultUltimo = firtOldUltimo * porUltimoReal;
+                                                        menoraaUlt = mayoraaUlt;
+                                                        mayoraaUlt = valuesReturn[aaa];
+
                                                     }
                                                     else
                                                     {
-                                                        resultUltimo = ultOldUltimo * porUltimoReal;
+                                                        menoraaUlt = valuesReturn[aaa];
                                                     }
-
-                                                }
-                                                if (resultUltimo >= 50 && resultUltimo <= 100)
-                                                {
-
-                                                    cuantosUltimo = cuantosUltimo + 1;
-                                                    var day = i + 1;
-                                                    if (sumarUltimo == 0)
+                                                    contadoraaUlt = contadoraaUlt + 1;
+                                                    if (aaa == valuesReturn.Count - 1)
                                                     {
-                                                        valuesTemp.RemoveAt(0);
-                                                    }
-                                                    else
-                                                    {
-                                                        for (int zz = 0; zz < sumarUltimo; zz++)
+                                                        if (mayoraaUlt * contadoraaUlt <= 50)
                                                         {
-                                                            if (zz % 2 == 0)
-                                                            {
-                                                                valuesTemp.RemoveAt(0);
-                                                            }
-                                                            else
-                                                            {
-                                                                var dig = valuesTemp.Count - 1;
-                                                                valuesTemp.RemoveAt(dig);
-                                                            }
-
+                                                            result = mayoraaUlt * contadoraaUlt;
+                                                            var day = i + 1;
+                                                            recorrerValores.Add(new devolver { dia = day, value = 1 });
+                                                            valuesReturn.Clear();
+                                                            aaa = valuesReturn.Count + 1;
                                                         }
+                                                        else
+                                                        {
+                                                            result = 0;
+                                                        }
+                                                    }
 
-                                                    }
-                                                    valuesReturncadena += "Case #" + day.ToString() + ": " + sumarUltimo.ToString() + "\n";
-                                                    ultimoUltimo = ultimoUltimo - sumarUltimo;
-                                                    valuesChanges.RemoveAt(0);
-                                                    if (valuesChanges.Count == 0 && ultimoUltimo == 0)
-                                                    {
-                                                        valuesTemp.Clear();
-                                                    }
                                                 }
+
                                                 sumarUltimo = sumarUltimo + 1;
                                             }
                                         }
@@ -294,9 +310,57 @@ namespace Afnarqui.Prueba.Aplication.Logic
 
 
             }
+
+
+     
+
+            for (int i = 0; i < recorrerValores.Count; i++)
+            {
+                var dia = recorrerValores[i].dia;
+                var vals = recorrerValores[i].value;
+                if (i == 0)
+                {
+                    recorrerValoresCopia.Add(new devolver { dia = dia, value = 1 });
+                }
+                else
+                {
+                    var contador = 0;
+                    for (int k = 0; k < recorrerValoresCopia.Count; k++)
+                    {
+                        var diaCopia = recorrerValoresCopia[k].dia;
+                        if(diaCopia == dia)
+                        {
+                            recorrerValoresCopia[k].value+= 1;
+                            contador = 1;
+                        }
+                        if (k == recorrerValoresCopia.Count - 1 && contador == 0) {
+                            recorrerValoresCopia.Add(new devolver { dia = dia, value = 1 });
+                            k = recorrerValoresCopia.Count + 1;
+                        }
+                        
+                    }
+                }
+            }
+
+            valuesReturncadena = "";
+            for (int i = 0; i < recorrerValoresCopia.Count; i++)
+            {
+                valuesReturncadena+= "Case #" + recorrerValoresCopia[i].dia.ToString() + ": " + recorrerValoresCopia[i].value.ToString() + ";";
+            }
+
+
+
+
             return valuesReturncadena;
 
         }
 
     }
+
+    public class devolver
+    {
+        public int dia { get; set; }
+        public int value { get; set; }
+    }
 }
+
